@@ -1,0 +1,227 @@
+*{ 
+    box-sizing: border-box;}
+
+@media(min-width:390px){
+    body,
+    html{
+        height: 100%;
+        margin: 0.5PX;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #FEF3E2;
+    }
+.ihop{
+display:flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+align-items: baseline;
+
+}   
+.namn{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 38px;
+color:#FA812F;
+background-color: black;
+}
+.logo{
+display: flex;
+justify-content: flex-start;
+margin-top: 25.46px;
+margin-bottom: 25.46px;
+align-items: flex-start;
+border-radius: 15px;
+}
+.ihop,.logo.namn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    background-color:black;
+    border-radius: 4px;
+    
+}
+.nav-links{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+    list-style: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+.navbar,.footer{
+    background-color:#FA812F;
+    border: black solid;
+    border-radius: 4px;
+}
+.bilder1,.inne{
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+gap:10px
+}
+.footer-links { 
+    display:flex;
+    justify-content: space-between;
+    padding: 0%;
+    list-style: none;
+    width: 100%;
+    color: black; 
+    font-size: 15px;
+    text-decoration: none;  
+}  
+.footer-links li{
+    margin: 0 10px;
+}
+.footer-links a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+.content{
+    background-color: #FEF3E2;
+}
+.footer{
+    border: black solid;
+    border-radius: 4px;
+}
+
+.kontakt{
+    font-size: 30px; 
+    color: #FAB12F;
+    text-align: center;
+    font-style: italic;
+  }
+  .formul{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: #FAB12F;
+    margin-left:25%;
+    margin-right:25%;
+    border: black 3px solid;
+    border-radius: 4px;
+}
+
+  .knapp{
+      background-color: #FEF3E2;
+      padding: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-radius: 5px; 
+  }
+}
+
+@media (min-width: 1024px) {
+    body,
+    html{
+        height: 100%;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+}
+.ihop{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color:#FAB12F;
+    border-radius: 10px;
+    }   
+    .namn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 58px;
+    color:black;
+    background-color:#FEF3E2;
+    border-radius: 10px;
+    border:#FA4032 solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    }
+    .logo{
+    display: flex;
+    align-items: flex-end;
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    border:#FA4032 solid;
+    
+    }
+    
+    .footer,.nav-links,.footer-links li{
+        font-family:'Courier New', Courier, monospace;
+        font-size: 20px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 10px;
+        list-style: none;
+    }
+    .nav-links a, .footer-links a{
+        text-decoration: none;
+        color:#FA4032;
+    }
+    .navbar,.footer{
+        background-color:black;}
+  
+    .kontakt{
+        font-size: 35px; 
+        color: black;
+        text-align: center;
+        font-style: italic;
+    }
+        
+      .formul{  
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          font-size: 15px;
+          background-color: #FAB12F;
+          margin-left:35%;
+          margin-right:35%;
+          border: black 3px solid;
+          border-radius: 4px;
+    
+      }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+       
+      .knapp{
+          background-color: #FEF3E2;
+          padding: 0.5rem;
+          margin-bottom: 0.5rem;
+          border-radius: 5px;
+          border: black 2px solid; 
+          color: #FA4032;
+      }
+      .info{
+        font-size: 30px; 
+        color: black;
+        text-align: center;
+        font-style: italic; 
+      }
+   
+    .footer,.footer-links li,.footer-links a{ 
+        list-style: none; 
+        font-size: 20px;  
+        border-radius: 4px;
+    }  
+    
+     }
+    

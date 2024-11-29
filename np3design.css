@@ -1,0 +1,298 @@
+*{ 
+    box-sizing: border-box;}
+@media(min-width:390px){
+    body,
+    html{
+        height: 100%;
+        margin: 0.5PX;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #FEF3E2;
+    }
+.ihop{
+display:flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+align-items: baseline;
+}   
+.namn{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 38px;
+color:#FA812F;
+background-color: black;
+}
+.logo{
+display: flex;
+justify-content: flex-start;
+margin-top: 25.46px;
+margin-bottom: 25.46px;
+align-items: flex-start;
+border-radius: 15px;
+}
+.ihop,.logo.namn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    background-color:black;
+    border-radius: 4px;
+    
+}
+.nav-links{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+    list-style: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+.navbar,.footer{
+    background-color:#FA812F;
+    border: black solid;
+    border-radius: 4px;
+}
+.designa{
+    font-size: 35px;
+    text-align: center;
+}
+.bilder3d,.bilderna,.inne{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+}
+.print{
+    width: 150px;
+    height: auto;
+    border: #FA812F 4px solid;
+    border-radius: 10px;
+    margin-bottom: -10px;
+    margin-inline-start: auto;
+}
+.np,.bilder3d,.bilderna{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #FA812F;
+}
+.printamig{
+    display: flex;
+    justify-content: space-around;
+}
+.bilderna{
+    padding-right: 25px;
+    gap:1px;
+}
+.np{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+    background-color: #FA812F;
+    border-radius: 4px;
+}
+.button a{
+    text-decoration-line: none;
+    color: black;
+    }
+.h3{
+    font-size: 25px;
+}
+.text1,.body{
+    text-align: start;
+    font-size: 15px;
+    
+}
+.footer-links { 
+    display:flex;
+    justify-content: space-between;
+    padding: 0%;
+    list-style: none;
+    width: 100%;
+    color: black; 
+    font-size: 15px;
+    text-decoration: none;  
+}  
+.footer-links li{
+    margin: 0 10px;
+}
+.footer-links a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+.content{
+    background-color: #FEF3E2;
+}
+.footer{
+    border: black solid;
+    border-radius: 4px;
+}
+
+
+}
+
+@media (min-width: 1024px) {
+    body,
+    html{
+        height: 100%;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+}
+.ihop{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    border:#FAB12F  4px solid;
+    }   
+    .namn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 58px;
+    color:black;
+    background-color:#FEF3E2;
+    border-radius: 10px;
+    border:#FAB12F solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    }
+    .logo{
+    display: flex;
+    align-items: flex-end;
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    border:#FAB12F solid;
+    
+    }
+    
+    .footer,.nav-links,.footer-links li{
+        font-family:'Courier New', Courier, monospace;
+        font-size: 20px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 10px;
+        list-style: none;
+    }
+    .nav-links a, .footer-links a{
+        text-decoration: none;
+        color:#FAB12F;
+        
+    }
+    .navbar,.footer{
+        background-color:black;
+        border-radius: 10px;
+        border:#FAB12F  4px solid;}
+
+
+    .designa{
+    font-size: 55px;
+    text-align: center;
+
+}
+.design{
+    font-size: 35px;
+    text-align: center;}
+
+.bilder3d,.bilderna,.inne{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+}
+.print{
+    width: 150px;
+    height: auto;
+    border: #FAB12F 4px solid;
+    border-radius: 10px;
+    margin-bottom: -10px;
+    margin-inline-start: auto;
+    width: 270px;
+    height: 290px;
+    }
+.np,.bilder3d,.bilderna{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #FAB12F;
+}
+.bilderna{
+    padding-right: 25px;
+    gap:60px;
+    
+}
+.np{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.printamig{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    background-color: #FAB12F;
+    border:black solid 4px;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 10px;
+    gap:10px;
+}
+.button a{
+    text-decoration-line: none;
+    color: black;
+    }
+.printamig{
+    gap:10px;
+}
+
+.text1,.body{
+    text-align: start;
+    font-size: 25px;
+    }
+    .footer,.footer-links li,.footer-links a{ 
+        list-style: none; 
+        font-size: 20px;  
+        border-radius: 4px;
+    }  
+    
+     }
+    
+
+
+
